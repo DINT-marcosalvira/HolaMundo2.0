@@ -31,6 +31,10 @@ namespace HolaMundo2._0
             {
                 NombreTextBlock.Text = "Hola " + NombreTextBox.Text;
             }
+            else
+            {
+                NombreTextBlock.Text = "Hola mundo!";
+            }
         }
 
         private void NombreBotonLimpiar_Click(object sender, RoutedEventArgs e)

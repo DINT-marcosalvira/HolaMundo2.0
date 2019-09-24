@@ -27,7 +27,7 @@ namespace HolaMundo2._0
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (NombreTextBox.Text == "")
+            if (NombreTextBox.Text.Length > 0)
             {
                 NombreTextBlock.Text = "Hola " + NombreTextBox.Text;
             }
